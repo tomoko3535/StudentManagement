@@ -9,7 +9,7 @@ import java.util.List;
 
 @SpringBootApplication
 @RestController
-public class Application {
+public class Application{
 
 
 	@Autowired
@@ -22,10 +22,13 @@ public class Application {
 	}
 
 	@GetMapping("/students_coursesList")
-	public List<Student> getStudentcoursesList() {
+	public List<studentsCourses> getStudentcoursesList() {
 		return repository.search();
 	}
-}
+
+
+	}
+
 
 
 
