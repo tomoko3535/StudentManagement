@@ -1,4 +1,4 @@
-package raisetech.Student.Management;
+package raisetech.Student.Management.Student.Management;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
