@@ -25,12 +25,4 @@ public class StudentService {
     public List<StudentsCourses> searchStudentCourseList() {
         return repository.searchStudentCourses();
     }
-
-    public List<Student> students30s() {
-        return repository.students30s();
-    }
-
-    public List<StudentsCourses> searchStudentsCoursesJava() {
-        return repository.searchStudentsCoursesJava();
-    }
 }

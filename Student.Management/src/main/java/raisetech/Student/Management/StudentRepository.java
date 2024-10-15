@@ -11,16 +11,11 @@ import java.util.List;
 public interface StudentRepository {
 
 
-        @Select("SELECT * FROM students")
+        @Select("SELECT * FROM students WHERE age BETWEEN 30 AND 39")
         List<Student> search();
 
-        @Select("SELECT * FROM students_courses")
+        @Select("SELECT * FROM students_courses WHERE course_name ='Java'")
         List<StudentsCourses> searchStudentCourses();
 
-        @Select("SELECT * FROM students30s WHERE age BETWEEN 30 AND 39")
-        List<Student> students30s();
-
-        @Select("SELECT * FROM students_coursesJava WHERE course_name ='Java'")
-        List<StudentsCourses> searchStudentsCoursesJava();
-    }
+}
 

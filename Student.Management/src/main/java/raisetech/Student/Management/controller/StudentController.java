@@ -29,13 +29,6 @@ public class StudentController {
         return service.searchStudentCourseList();
     }
 
-    @GetMapping("/students30s")
-    public List<Student> students30s() {
-        return service.students30s();
-    }
-    @GetMapping("/students_coursesJava")
-    public List<StudentsCourses> getStudentsCoursesJava() {
-        return service.searchStudentsCoursesJava();
-    }
+
 }
 
