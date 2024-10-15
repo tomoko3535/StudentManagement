@@ -1,4 +1,4 @@
-package raisetech.Student.Management;
+package raisetech.Student.Management.repository;
 
 import org.apache.ibatis.annotations.*;
 import raisetech.Student.Management.data.Student;

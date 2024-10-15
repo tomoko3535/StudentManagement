@@ -2,7 +2,7 @@ package raisetech.Student.Management.Servise;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import raisetech.Student.Management.StudentRepository;
+import raisetech.Student.Management.repository.StudentRepository;
 import raisetech.Student.Management.data.Student;
 import raisetech.Student.Management.data.StudentsCourses;
 
