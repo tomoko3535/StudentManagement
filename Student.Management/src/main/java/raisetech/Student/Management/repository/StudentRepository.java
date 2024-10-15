@@ -10,7 +10,7 @@ import java.util.List;
 
 public interface StudentRepository {
 
-    @Select("ELECT * FROM students")
+    @Select("SELECT * FROM students")
     List<Student> search();
 
     @Select("SELECT * FROM students_courses")
