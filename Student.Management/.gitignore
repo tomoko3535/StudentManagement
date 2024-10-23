@@ -16,12 +16,12 @@ StudentManagement.iml
 uiDesigner.xml
 vcs.xml
 workspace.xml
-.gradle
+/.gradle/
 8.8
 buildOutputCleanup
 vcs-1
 file-system.probe
-build
+/build/
 classes
 generated
 resources
