@@ -21,7 +21,7 @@ workspace.xml
 buildOutputCleanup
 vcs-1
 file-system.probe
-/build/
+/.build/
 classes
 generated
 resources
